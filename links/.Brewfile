@@ -27,9 +27,6 @@ brew 'peco'
 
 brew 'vim'
 
-brew 'docker'
-brew 'docker-compose'
-
 brew 'circleci'
 
 brew 'direnv'
