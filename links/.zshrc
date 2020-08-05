@@ -47,3 +47,13 @@ zinit light-mode for \
 zinit ice wait'!0';zinit load zsh-users/zsh-completions
 
 autoload -Uz compinit && compinit
+
+# function
+function projects() {
+    SELECT=$(ghq root)/$(ghq list | peco)
+    if test -n $SELECT; then;
+        cd $SELECT && clear
+    fi
+}
+zle -N projects
+bindkey '^G' projects
