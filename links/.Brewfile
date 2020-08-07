@@ -2,6 +2,7 @@ brew 'gcc'
 
 brew 'curl'
 brew 'wget'
+brew 'make'
 
 brew 'zsh'
 brew 'starship'
