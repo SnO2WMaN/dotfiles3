@@ -1,6 +1,15 @@
 [user]
-    email="sno2wman.official@gmail.com"
-    name="sno2wman"
+    email = sno2wman.official@gmail.com
+    name = SnO2WMaN
+
+[core]
+    editor = code --wait
+    pager = less -R
+	autoCRLF = input
+	filemode = false
 
 [ghq]
     root="~/projects"
+
+[alias]
+    c = commit --verbose
