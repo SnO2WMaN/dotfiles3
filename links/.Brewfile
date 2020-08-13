@@ -31,3 +31,13 @@ brew 'vim'
 brew 'circleci'
 
 brew 'direnv'
+
+brew 'hadolint'
+
+tap  'heroku/brew'
+brew 'heroku'
+
+brew 'postgresql'
+
+brew 'minikube'
+brew 'skaffold'
