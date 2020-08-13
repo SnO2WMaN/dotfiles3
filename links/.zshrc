@@ -2,7 +2,13 @@ autoload zkbd
 source ~/.zkbd/$TERM-${${DISPLAY:t}:-$VENDOR-$OSTYPE} # may be different - check where zkbd saved yours
 
 # brew
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(/home/sno2wman/.linuxbrew/bin/brew shellenv)"
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
 
 # aliases
 if [ -f ~/.bash_aliases ]; then
