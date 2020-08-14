@@ -25,8 +25,10 @@ eval "$(gh completion)"
 eval "$(direnv hook zsh)"
 
 # asdf
-. $HOME/.asdf/asdf.sh
-fpath=(${ASDF_DIR}/completions $fpath)
+. $(brew --prefix asdf)/asdf.sh
+
+# krew
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 # histry
 export HISTFILE=${HOME}/.zsh_history
