@@ -41,3 +41,5 @@ brew 'postgresql'
 
 brew 'minikube'
 brew 'skaffold'
+
+brew 'asdf'
