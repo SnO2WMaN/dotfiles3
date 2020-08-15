@@ -6,6 +6,7 @@ brew 'curl'
 brew 'wget'
 brew 'make'
 brew 'jq'
+brew 'zip'
 
 brew 'zsh'
 brew 'starship'
