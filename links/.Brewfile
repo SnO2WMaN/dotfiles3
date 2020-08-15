@@ -1,8 +1,11 @@
 brew 'gcc'
+brew 'gpg'
+brew 'coreutils'
 
 brew 'curl'
 brew 'wget'
 brew 'make'
+brew 'jq'
 
 brew 'zsh'
 brew 'starship'
@@ -13,6 +16,7 @@ brew 'procs'
 brew 'dust'
 brew 'hyperfine'
 brew 'miniserve'
+brew 'ripgrep'
 
 tap  'cjbassi/ytop'
 brew 'ytop'
