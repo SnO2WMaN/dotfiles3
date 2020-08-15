@@ -43,5 +43,9 @@ asdf install $(cat $DOTFILES/.tool-versions | grep ocaml)
 asdf plugin-add haxe
 asdf install $(cat $DOTFILES/.tool-versions | grep haxe)
 
+## haxe
+asdf plugin-add lua
+asdf install $(cat $DOTFILES/.tool-versions | grep lua)
+
 # rustup
 rustup-init
