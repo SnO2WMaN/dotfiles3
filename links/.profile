@@ -28,3 +28,6 @@ fi
 
 # brew
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
+# rustup
+export PATH="$HOME/.cargo/bin:$PATH"

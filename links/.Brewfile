@@ -47,3 +47,7 @@ brew 'minikube'
 brew 'skaffold'
 
 brew 'asdf'
+
+brew 'rustup'
+
+brew 'haskell-stack'
