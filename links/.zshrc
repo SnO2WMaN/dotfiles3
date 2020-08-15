@@ -2,7 +2,6 @@ autoload zkbd
 source ~/.zkbd/$TERM-${${DISPLAY:t}:-$VENDOR-$OSTYPE} # may be different - check where zkbd saved yours
 
 # brew
-eval "$(/home/sno2wman/.linuxbrew/bin/brew shellenv)"
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 
@@ -29,6 +28,13 @@ eval "$(direnv hook zsh)"
 
 # krew
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+# gcp
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/sno2wman/google-cloud-sdk/path.zsh.inc' ]; then . '/home/sno2wman/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/sno2wman/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/sno2wman/google-cloud-sdk/completion.zsh.inc'; fi
 
 # histry
 export HISTFILE=${HOME}/.zsh_history
