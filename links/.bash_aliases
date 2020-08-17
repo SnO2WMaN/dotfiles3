@@ -7,7 +7,7 @@ alias du='dust'
 alias grep='ripgrep'
 alias top='ytop'
 alias hexdump='hx'
-alias time='hypertime'
+alias time='hyperfine'
 alias http-server='miniserve'
 alias license='licensor'
 
