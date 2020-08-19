@@ -13,3 +13,4 @@
 
 [alias]
     c = commit --verbose
+    initc = commit --allow-empty -m 'Initial Commit'
