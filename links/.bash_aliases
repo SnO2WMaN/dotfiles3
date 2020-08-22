@@ -59,4 +59,6 @@ alias dc='docker-compose'
 
 alias gc='g c'
 
+alias kz="kustomize"
+
 alias pwdw='wslpath -w $(pwd)'
