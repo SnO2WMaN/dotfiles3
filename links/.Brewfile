@@ -46,6 +46,8 @@ brew 'postgresql'
 
 brew 'minikube'
 brew 'skaffold'
+brew "kubectx"
+brew "kustomize"
 
 brew 'asdf'
 
