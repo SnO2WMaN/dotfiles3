@@ -27,6 +27,9 @@ eval "$(direnv hook zsh)"
 # asdf
 . $(brew --prefix asdf)/asdf.sh
 
+# minikube
+eval "$(minikube completion zsh)"
+
 # krew
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
@@ -93,3 +96,5 @@ function projects() {
 }
 zle -N projects
 bindkey '^G' projects
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /home/linuxbrew/.linuxbrew/Cellar/kustomize/3.8.1/bin/kustomize kustomize
