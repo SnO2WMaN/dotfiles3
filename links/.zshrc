@@ -91,7 +91,6 @@ function projects() {
     SELECT=$(ghq root)/$(ghq list | peco)
     if test -n $SELECT; then;
         cd $SELECT
-        code .
     fi
 }
 zle -N projects
