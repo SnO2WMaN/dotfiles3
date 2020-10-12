@@ -24,6 +24,9 @@ alias l='clear && ll'
 # editor
 alias edit='code'
 
+# github
+alias github="gh repo view"
+
 # 1char
 
 # alias a=''
