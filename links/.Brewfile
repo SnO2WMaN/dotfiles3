@@ -54,3 +54,7 @@ brew 'asdf'
 brew 'rustup'
 
 brew 'haskell-stack'
+
+brew 'nektos/tap/act'
+
+brew 'fossas/tap/fossa'
