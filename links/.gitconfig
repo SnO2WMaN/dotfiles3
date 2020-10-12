@@ -6,7 +6,7 @@
     editor = code --wait
     pager = less -R
 	  autoCRLF = input
-    fileMode = false
+    filemode = false
 
 [ghq]
     root="~/projects"
