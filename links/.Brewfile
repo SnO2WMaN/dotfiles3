@@ -26,7 +26,7 @@ brew 'git'
 brew 'ghq'
 
 tap  'github/gh'
-brew 'github/gh/gh'
+brew 'gh'
 
 brew 'fzf'
 brew 'peco'
@@ -55,6 +55,6 @@ brew 'rustup'
 
 brew 'haskell-stack'
 
-brew 'nektos/tap/act'
+brew 'act'
 
 brew 'fossas/tap/fossa'
